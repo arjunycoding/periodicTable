@@ -4,3 +4,11 @@ td{
 .empty{
     border:none;
 }
+.empty:hover{
+    color:inherit;
+    background-color: inherit;
+}
+td:hover{
+    color:red;
+    background-color: lightgray;
+}
