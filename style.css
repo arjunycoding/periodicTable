@@ -13,3 +13,9 @@ td:hover{
     color:red;
     background-color: lightgray;
 }
+.red{
+   background-color:rgb(255, 118, 84);
+}
+.orange{
+    background-color:rgb(255, 193, 36);
+}
