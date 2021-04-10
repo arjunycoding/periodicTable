@@ -3,6 +3,7 @@ td{
 }
 .empty{
     border:none;
+    background-color:inherit !important;
 }
 .empty:hover{
     color:inherit;
