@@ -40,3 +40,11 @@ td:hover{
 .darkBlue{
     background-color:rgb(131, 162, 246);
 }
+#play{
+    background-color: rgb(189, 120, 42);
+    border:none;
+    width: 60px;
+    height: 30px;
+    border-radius: 8px;
+    color:white;
+}
