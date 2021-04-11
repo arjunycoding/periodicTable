@@ -11,6 +11,9 @@ td{
     background-color:inherit !important;
 
 }
+button:hover{
+    cursor:pointer;
+}
 .empty:hover{
     color:inherit;
     background-color: inherit;
