@@ -2,7 +2,7 @@ td{
     border:1px solid white;
 }
 .empty{
-    border:none ;
+    border:1px solid white;
 
 }
 
@@ -22,4 +22,7 @@ td:hover{
 }
 .blue{
     background-color:rgb(36, 171, 255);
+}
+sub{
+    text-align:center !important;
 }
