@@ -8,7 +8,6 @@ function makeArray(){
 function validate(){
     document.getElementById("hint").innerHTML = `You guessed it! The answer was  ${secert.title}, element ${secert.id.slice(2)}`;
 }
-
 function playGame(){
     document.getElementById("hint").innerHTML = "";
     let elements = makeArray();
