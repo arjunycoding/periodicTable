@@ -20,4 +20,4 @@ function playGame(){
 }
 playGame();
 let playBtn = document.getElementById("play");
-playBtn.addEventListener("click", playGame)
+playBtn.addEventListener("click", playGame);
