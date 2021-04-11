@@ -16,7 +16,9 @@ function playGame(){
     let randomElement = document.getElementById(elements[randomIndex]);
     let secert = randomElement;
     console.log(secert);
-    secert.addEventListener('click', validate);
+    secert.addEventListener('click', function (){
+        document.getElementById("hint").innerHTML = `You guessed it! The answer was  ${secert.title}, element ${secert.id.slice(2)}`;
+    });
 }
 playGame();
 let playBtn = document.getElementById("play");
