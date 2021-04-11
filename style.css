@@ -2,10 +2,10 @@ td{
     border:1px solid white;
 }
 .empty{
-    border:1px solid white;
+    border:none;
+    background-color:inherit !important;
 
 }
-
 .empty:hover{
     color:inherit;
     background-color: inherit;
