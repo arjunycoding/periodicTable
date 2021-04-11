@@ -3,7 +3,8 @@ td{
     padding:5px;
 }
 .empty{
-    border:none;
+    padding:5px;
+    border:1px solid white !important;
     background-color:inherit !important;
 
 }
@@ -11,9 +12,11 @@ td{
     color:inherit;
     background-color: inherit;
     border:1px solid white !important;
+    cursor:default !important;
 }
 td:hover{
     border:1px solid black;
+    cursor:pointer;
 }
 .red{
    background-color:rgb(255, 149, 130);

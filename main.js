@@ -6,12 +6,11 @@ function makeArray(){
     return elements
 }
 function validate(){
-    document.getElementById("hint").innerHTML = "you gessued it!";
+    document.getElementById("hint").innerHTML = `You guesses it! The answer was  ${secert.title}`;
 }
 let elements = makeArray();
-console.log(elements);
 let randomIndex = Math.floor(Math.random() * 118);
 let randomElement = document.getElementById(elements[randomIndex]);
 let secert = randomElement;
-console.log(secert);
+console.log(secert.title);
 secert.addEventListener('click', validate);
