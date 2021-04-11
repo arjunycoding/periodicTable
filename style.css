@@ -43,6 +43,9 @@ td:hover{
 .darkBlue{
     background-color:rgb(131, 162, 246);
 }
+.green{
+    background-color: rgb(133, 189, 42);
+}
 #play{
     background-color: rgb(189, 120, 42);
     border:none;
