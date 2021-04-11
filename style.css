@@ -52,8 +52,11 @@ td:hover{
     color:white;
 }
 .metaliod{
-    background-color: blueviolet;
+    background-color: rgb(152, 247, 148);
 }
 .nonmetal{
-    background-color:green;
+    background-color:rgb(65, 184, 57);
+}
+.metal{
+    background-color:rgb(0, 255, 53);
 }
