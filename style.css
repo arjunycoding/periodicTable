@@ -20,13 +20,17 @@ td:hover{
 }
 .red{
    background-color:rgb(255, 149, 130);
-   background-image: linear-gradient(to bottom right, rgb(255, 149, 130), rgb(255, 38, 0));
 }
 .orange{
     background-color:rgb(250, 209, 132);
-    background-image: linear-gradient(to bottom right, rgb(250, 209, 132), rgb(255, 111, 0));
 }
 .blue{
     background-color:rgb(171, 203, 255);
-    background-image: linear-gradient(to bottom right, rgb(183, 199, 250), rgb(0, 115, 255))
+
+}
+.noble{
+    background-color:rgb(255, 226, 138);
+}
+.halogen{
+    background-color:rgb(255, 208, 66);
 }

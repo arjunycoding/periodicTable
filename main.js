@@ -14,7 +14,7 @@ function playGame(){
     let randomIndex = Math.floor(Math.random() * 118);
     let randomElement = document.getElementById(elements[randomIndex]);
     let secert = randomElement;
-    console.log(secert);
+    console.log(secert.id.slice(2));
     secert.addEventListener('click', function(){
         document.getElementById("hint").innerHTML = `You guessed it! The answer was  ${secert.title}, element ${secert.id.slice(2)}`;
     });
