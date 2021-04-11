@@ -15,7 +15,7 @@ function playGame(){
     let randomIndex = Math.floor(Math.random() * 118);
     let randomElement = document.getElementById(elements[randomIndex]);
     let secert = randomElement;
-    console.log(secert.id.slice(2));
+    console.log(secert);
     secert.addEventListener('click', validate);
 }
 playGame();
