@@ -1,21 +1,28 @@
 td{
-    border:1px solid black;
+    border:1px solid white;
 }
 .empty{
     border:none;
     background-color:inherit !important;
+
 }
 .empty:hover{
     color:inherit;
     background-color: inherit;
+    border:1px solid white !important;
 }
 td:hover{
-    color:red;
-    background-color: lightgray;
+    border:1px solid black;
 }
 .red{
    background-color:rgb(255, 118, 84);
 }
 .orange{
     background-color:rgb(255, 193, 36);
+}
+.blue{
+    background-color:rgb(36, 171, 255);
+}
+sub{
+    text-align:center !important;
 }
