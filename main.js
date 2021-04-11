@@ -9,6 +9,7 @@ function validate(){
     document.getElementById("hint").innerHTML = "you gessued it!";
 }
 function playGame(){
+    document.getElementById("hint").innerHTML = "";
     let elements = makeArray();
     let randomIndex = Math.floor(Math.random() * 118);
     let randomElement = document.getElementById(elements[randomIndex]);
@@ -16,5 +17,6 @@ function playGame(){
     console.log(secert);
     secert.addEventListener('click', validate);
 }
+playGame();
 let playBtn = document.getElementById("play");
 playBtn.addEventListener("click", playGame)
